@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light" />
+    <meta
+      name="description"
+      content="오늘의환테크(todayfx) Android 앱의 개인정보처리방침"
+    />
+    <title>개인정보처리방침 · 오늘의환테크</title>
+    <style>
+      :root {
+        --canvas: #f4f6f8;
+        --surface: #ffffff;
+        --ink: #191f28;
+        --text: #333d4b;
+        --muted: #586575;
+        --border: #e8ebef;
+        --primary: #1b64da;
+        --primary-deep: #1550b8;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--canvas);
+        color: var(--text);
+        font-family: 'Toss Product Sans', 'SF Pro KR', -apple-system, BlinkMacSystemFont,
+          'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', system-ui, sans-serif;
+        font-size: 16px;
+        line-height: 1.65;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+      }
+
+      header {
+        background: var(--surface);
+        border-bottom: 1px solid var(--border);
+      }
+
+      .wrap {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .brand {
+        min-height: 64px;
+        display: flex;
+        align-items: center;
+        color: var(--ink);
+        font-size: 18px;
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      main {
+        padding: 28px 0 56px;
+      }
+
+      article {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 24px;
+      }
+
+      h1 {
+        margin: 0 0 4px;
+        color: var(--ink);
+        font-size: 24px;
+        line-height: 1.35;
+      }
+
+      .updated {
+        margin: 0 0 24px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      section + section {
+        border-top: 1px solid var(--border);
+        margin-top: 20px;
+        padding-top: 20px;
+      }
+
+      h2 {
+        margin: 0 0 8px;
+        color: var(--ink);
+        font-size: 16px;
+        line-height: 1.45;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      p + p {
+        margin-top: 10px;
+      }
+
+      a {
+        color: var(--primary-deep);
+        font-weight: 600;
+      }
+
+      footer {
+        padding-top: 20px;
+        color: var(--muted);
+        font-size: 12px;
+        text-align: center;
+      }
+
+      @media (max-width: 520px) {
+        .wrap {
+          padding: 0 16px;
+        }
+
+        .brand {
+          min-height: 56px;
+          font-size: 18px;
+        }
+
+        main {
+          padding: 20px 0 40px;
+        }
+
+        article {
+          padding: 20px 16px;
+        }
+
+        h1 {
+          font-size: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <a class="brand" href="./" translate="no">오늘의환테크</a>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <article>
+        <h1>개인정보처리방침</h1>
+        <p class="updated">시행일 2026년 10월 20일</p>
+
+        <section>
+          <h2>운영자와 문의</h2>
+          <p>
+            이 앱은 <strong>Wilgon Lab</strong>이 개발했습니다. 개인정보 관련 문의는
+            <a href="mailto:tonydev901@gmail.com">tonydev901@gmail.com</a>으로 보내 주세요.
+          </p>
+        </section>
+
+        <section>
+          <h2>기기에 저장되는 정보</h2>
+          <p>
+            사용자가 직접 입력한 거래 기록(날짜, 통화, 수량, 원화 금액, 통장 이름, 메모), 목표
+            환율, 매도 비용 설정은 기기 안의 앱 저장소(localStorage)에 보관됩니다. 개발자는 이
+            기록을 별도 서버로 전송하거나 수집하지 않습니다. 계정 로그인, 은행 로그인 정보, 계좌
+            비밀번호를 요구하지 않습니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>환율 정보 요청</h2>
+          <p>
+            환율을 불러올 때 Frankfurter API(ECB 기준 일별 환율)에 기준 통화, 대상 통화, 날짜
+            범위를 요청합니다. 이 과정에서 IP 주소, 요청 시각, 일반적인 네트워크 요청 정보 같은
+            통상적인 메타데이터가 해당 API 제공자에 의해 처리될 수 있습니다. 개발자는 이 요청을
+            사용자 기록과 연결해 별도로 저장하지 않습니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>광고·푸시·분석</h2>
+          <p>
+            Android 앱에는 광고, 푸시 알림, 로그인, 자체 분석·추적 SDK가 없습니다. Android
+            앱에서는 사용 행동을 분석 서비스로 보내지 않습니다.
+          </p>
+          <p>
+            Toss(앱인토스) 버전은 토스 플랫폼 정책에 따라 서비스 개선을 위해 토스 Analytics로
+            환율 조회와 새 기록 저장 성공 이벤트를 집계합니다. 금액·계좌명·메모·거래 내용은 보내지
+            않습니다. 이 처리는 Toss 버전에만 해당하며 Android 앱에는 적용되지 않습니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>백업과 CSV 파일</h2>
+          <p>
+            JSON 백업과 CSV는 사용자가 선택한 위치에 저장됩니다. 파일에는 거래 기록과 설정이
+            포함될 수 있으므로 공유하거나 다른 사람에게 보낼 때 민감한 정보로 취급해 주세요. 앱은
+            백업 파일을 자동으로 업로드하지 않습니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>보관과 삭제</h2>
+          <p>
+            기록은 사용자가 설정에서 ‘모든 데이터 초기화’를 실행하거나 앱을 삭제할 때까지 기기에
+            남습니다. 앱은 Android 자동 클라우드 백업과 기기 이전을 사용하지 않도록 설정되어
+            있지만, 운영체제나 기기 제조사의 백업·복원 설정에 따라 데이터가 남을 수 있습니다. 백업
+            파일은 사용자가 저장한 위치에서 직접 삭제해야 합니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>환율·손익 정보의 한계</h2>
+          <p>
+            환율과 계산 결과는 참고용 정보이며 실제 은행 적용 환율과 다를 수 있습니다. 미래
+            환율이나 수익을 보장하지 않고, 투자 자문이나 금융상품 판매를 제공하지 않습니다.
+          </p>
+        </section>
+      </article>
+
+      <footer>오늘의환테크(todayfx) · Wilgon Lab</footer>
+    </main>
+  </body>
+</html>
